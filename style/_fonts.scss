@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ubuntu'), url('/assets/fonts/Ubuntu-R') format('ttf');
+  }
+  
+ @font-face {
+  font-family: 'Ubuntu-Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ubuntu Condensed'), url('/assets/fonts/Ubuntu-C') format('ttf');
+  }
+
+@font-face {
+  font-family: 'Ubuntu-Monospace';
+  src: local('Ubuntu Mono'), url('/assets/fonts/UbuntuMono-R') format('ttf');
+  }

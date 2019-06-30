@@ -1,0 +1,41 @@
+#banner {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: overlay;
+  color: black;
+  #title {
+    font-family: Ubuntu;
+    font-weight: bold;
+    padding: 2px;
+    background: rgb(133, 84, 21);
+    border-radius: 8px;
+    margin: 0;
+    font-size: 32px;
+    ul {
+      display: flex;
+      list-style: none;
+      justify-content: space-around;
+      align-items: center;
+      margin: 0;
+    }
+    img {
+      height: 60px;
+      border: 1px solid black;
+      border-radius: 50%;
+    }
+  }
+  h3 {
+    font-family: Ubuntu-Monospace;
+    color: white;
+    background: black;
+    border-radius: 8px;
+    padding: 0 24px;
+    font-size: 24p;
+  }
+}
