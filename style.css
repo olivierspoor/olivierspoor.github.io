@@ -63,8 +63,15 @@
   margin: 0;
 }
 
+#banner #title h1 {
+  margin: 10px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
 #banner #title img {
-  height: 60px;
+  margin: 0px;
+  height: 72px;
   border: 1px solid black;
   border-radius: 50%;
 }
