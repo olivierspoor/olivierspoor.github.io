@@ -1,22 +1,3 @@
-@font-face {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: normal;
-  src: local("Ubuntu"), url("/assets/fonts/Ubuntu-R") format("ttf");
-}
-
-@font-face {
-  font-family: 'Ubuntu-Condensed';
-  font-style: normal;
-  font-weight: normal;
-  src: local("Ubuntu Condensed"), url("/assets/fonts/Ubuntu-C") format("ttf");
-}
-
-@font-face {
-  font-family: 'Ubuntu-Monospace';
-  src: local("Ubuntu Mono"), url("/assets/fonts/UbuntuMono-R") format("ttf");
-}
-
 #banner {
   height: 80px;
   padding: 80px;
@@ -40,7 +21,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: Ubuntu;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   padding: 2px;
   background: #855415;
@@ -62,7 +43,7 @@
 }
 
 #banner h3 {
-  font-family: Ubuntu-Monospace;
+  font-family: 'Ubuntu Mono', monospace;
   color: white;
   background: black;
   border-radius: 8px;
