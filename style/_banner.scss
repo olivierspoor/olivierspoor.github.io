@@ -3,14 +3,11 @@
   padding: 80px;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-blend-mode: overlay;
   color: black;
   #title {
+    display: flex;
+    align-items: center;
     font-family: Ubuntu;
     font-weight: bold;
     padding: 2px;
@@ -18,23 +15,15 @@
     border-radius: 8px;
     margin: 0;
     font-size: 32px;
-    ul {
-      display: flex;
-      list-style: none;
-      justify-content: space-around;
-      align-items: center;
-      margin: 0;
-    }
-    h1 {
-      margin: 10px;
-      margin-left: 30px;
-      margin-right: 20px;
-    }
     img {
-      margin: 0px;
+      margin-left: .5em;
       height: 72px;
       border: 1px solid black;
       border-radius: 50%;
+    }
+    h1 {
+      margin: 10px;
+      padding-left: 10px;
     }
   }
   h3 {

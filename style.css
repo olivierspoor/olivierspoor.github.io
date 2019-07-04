@@ -26,21 +26,20 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-blend-mode: overlay;
   color: black;
 }
 
 #banner #title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: Ubuntu;
   font-weight: bold;
   padding: 2px;
@@ -50,30 +49,16 @@
   font-size: 32px;
 }
 
-#banner #title ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0;
+#banner #title img {
+  margin-left: .5em;
+  height: 72px;
+  border: 1px solid black;
+  border-radius: 50%;
 }
 
 #banner #title h1 {
   margin: 10px;
-  margin-left: 30px;
-  margin-right: 20px;
-}
-
-#banner #title img {
-  margin: 0px;
-  height: 72px;
-  border: 1px solid black;
-  border-radius: 50%;
+  padding-left: 10px;
 }
 
 #banner h3 {
