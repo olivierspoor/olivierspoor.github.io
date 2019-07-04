@@ -88,4 +88,30 @@ footer #social-media-footer ul li:hover a .fa-twitter {
 footer #social-media-footer ul li:hover a .fa-linkedin {
   color: #293d97;
 }
+
+main {
+  width: 95%;
+}
+
+.section-heading {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.now {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card {
+  width: 45%;
+}
+
+.card .card-image img {
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
