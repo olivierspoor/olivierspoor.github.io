@@ -1,5 +1,9 @@
 footer {
 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
   #social-media-footer {
 
     ul {
@@ -16,15 +20,15 @@ footer {
           color: black;
           // transition: .4s;
           &:hover .fa-github {
-            color: lightgrey; 
+            color: $githu;
             transition: .4s;
           }
           &:hover .fa-twitter{
             transition: .4s;
-            color: rgb(10, 161, 255);
+            color: $twitt;
           }
           &:hover .fa-linkedin{
-            color: rgb(41, 61, 151);
+            color: $linke;
             transition: .4s;  
           }
         }

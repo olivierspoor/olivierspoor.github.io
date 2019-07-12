@@ -12,7 +12,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: black;
+  color: #0A0908;
 }
 
 header #title {
@@ -34,7 +34,7 @@ header #title {
 header #title img {
   margin-left: .5em;
   height: 72px;
-  border: 1px solid black;
+  border: 1px solid #0A0908;
   border-radius: 50%;
 }
 
@@ -46,7 +46,7 @@ header #title h1 {
 header h3 {
   font-family: 'Ubuntu Mono', monospace;
   color: white;
-  background: black;
+  background: #0A0908;
   border-radius: 8px;
   padding: 0 24px;
   font-size: 24p;
@@ -70,6 +70,18 @@ header h3 {
 
 .card .card-image img {
   width: 100%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 footer #social-media-footer ul {
