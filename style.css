@@ -39,8 +39,8 @@ header #title img {
 }
 
 header #title h1 {
-  margin: 10px;
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 header h3 {
