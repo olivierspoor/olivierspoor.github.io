@@ -86,27 +86,27 @@ footer #social-media-footer ul {
 footer #social-media-footer ul li {
   font-size: 48px;
   padding: 16px;
-  -webkit-transition: .4s;
-  transition: .4s;
 }
 
-footer #social-media-footer a .fa-github,
-footer #social-media-footer a .fa-twitter,
-footer #social-media-footer a .fa-linkedin {
+footer #social-media-footer ul li a {
   color: black;
+}
+
+footer #social-media-footer ul li a:hover .fa-github {
+  color: lightgrey;
   -webkit-transition: .4s;
   transition: .4s;
 }
 
-footer #social-media-footer ul li:hover a .fa-github {
-  color: lightgrey;
-}
-
-footer #social-media-footer ul li:hover a .fa-twitter {
+footer #social-media-footer ul li a:hover .fa-twitter {
+  -webkit-transition: .4s;
+  transition: .4s;
   color: #0aa1ff;
 }
 
-footer #social-media-footer ul li:hover a .fa-linkedin {
+footer #social-media-footer ul li a:hover .fa-linkedin {
   color: #293d97;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 /*# sourceMappingURL=style.css.map */

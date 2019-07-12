@@ -1,31 +1,34 @@
-footer #social-media-footer ul{
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  padding: 0;
-}
+footer {
 
-footer #social-media-footer ul li {
-  font-size: 48px;
-  padding: 16px;
-  transition: .4s;
-}
+  #social-media-footer {
 
-footer #social-media-footer a .fa-github,
-footer #social-media-footer a .fa-twitter,
-footer #social-media-footer a .fa-linkedin {
-    color: black;
-    transition: .4s;
-}
+    ul {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+      padding: 0;
 
-footer #social-media-footer ul li:hover a .fa-github{
-  color: lightgrey;
-}
+      li {
+        font-size: 48px;
+        padding: 16px;
 
-footer #social-media-footer ul li:hover a .fa-twitter{
-  color: rgb(10, 161, 255);
-}
-
-footer #social-media-footer ul li:hover a .fa-linkedin{
-  color: rgb(41, 61, 151);
+        a {
+          color: black;
+          // transition: .4s;
+          &:hover .fa-github {
+            color: lightgrey; 
+            transition: .4s;
+          }
+          &:hover .fa-twitter{
+            transition: .4s;
+            color: rgb(10, 161, 255);
+          }
+          &:hover .fa-linkedin{
+            color: rgb(41, 61, 151);
+            transition: .4s;  
+          }
+        }
+      }
+    }
+  }
 }
