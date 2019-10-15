@@ -99,4 +99,10 @@ i {
 .fa-linkedin {
   color: #293d97;
 }
+
+@media (max-width: 400px) {
+  .paper {
+    width: 240px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

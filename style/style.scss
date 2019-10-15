@@ -82,3 +82,9 @@ i {
 .fa-linkedin{
   color: $linke;
 }
+
+@media(max-width:400px){
+  .paper {
+    width: 240px;
+  }
+}
