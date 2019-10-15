@@ -14,137 +14,89 @@ html, body {
           justify-content: center;
 }
 
-.card {
-  margin-top: 5em;
-  height: 300px;
-  width: 405px;
-  background-image: url(/assets/images/card.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
+.paper {
+  font-family: 'Caveat', cursive;
+  width: 300px;
+  margin: 5em auto auto;
+  padding: 6px 5px 4px 42px;
+  position: relative;
+  color: #444;
+  line-height: 20px;
+  border: 1px solid #d2d2d2;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d9eaf3), color-stop(8%, #fff)) 0 4px;
+  background: linear-gradient(to bottom, #d9eaf3 0%, #fff 8%) 0 4px;
+  background-size: 100% 20px;
+  border-radius: 3px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  -webkit-transform: rotate(-2deg);
-          transform: rotate(-2deg);
 }
 
-#social-media-buttons ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.paper::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  border: 1px solid;
+  border-color: transparent #efe4e4;
+}
+
+.paper h1 {
+  font-size: 32px;
+  line-height: 16px;
+  margin: -4px 0 8px;
+}
+
+.paper h2 {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 0 4px;
+}
+
+.paper p {
+  margin: 0 0 20px;
+}
+
+.paper p:last-child {
+  margin: 0;
+}
+
+.paper ul {
+  margin: 0 0 20px;
+}
+
+ul {
+  text-decoration: none;
   list-style: none;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 110px;
-  margin-left: 80px;
-  padding: 0;
 }
 
-#social-media-buttons ul li {
-  font-size: 30px;
-  padding: 6px;
-}
-
-#social-media-buttons ul li a {
+a {
   color: black;
-  height: 50px;
-  width: 50px;
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 50%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#afadad), to(white));
-  background-image: linear-gradient(#afadad, white);
-  -webkit-box-shadow: inset 0 0 2px #000000;
-          box-shadow: inset 0 0 2px #000000;
+  text-decoration: none;
 }
 
-#social-media-buttons ul li a .fa-github {
+a:hover {
+  font-weight: 700;
+  -webkit-transition: .4s;
+  transition: .4s;
+  margin-left: -5px;
+}
+
+i {
+  padding-right: 12px;
+}
+
+.fa-github {
   color: #a3a3a3;
 }
 
-#social-media-buttons ul li a .fa-github:hover {
-  color: black;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-#social-media-buttons ul li a .fa-twitter {
+.fa-twitter {
   color: #0aa1ff;
 }
 
-#social-media-buttons ul li a .fa-twitter:hover {
-  color: black;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-#social-media-buttons ul li a .fa-linkedin {
+.fa-linkedin {
   color: #293d97;
-}
-
-#social-media-buttons ul li a .fa-linkedin:hover {
-  color: black;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-#githu {
-  margin-left: 10px;
-}
-
-#twitt {
-  -webkit-transform: rotate(2deg);
-          transform: rotate(2deg);
-}
-
-#linke {
-  -webkit-transform: rotate(4deg);
-          transform: rotate(4deg);
-  margin-left: 5px;
-}
-
-@media (max-width: 720px) {
-  .card {
-    height: 200px;
-    width: 270px;
-  }
-  #social-media-buttons ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    list-style: none;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-top: 70px;
-    margin-left: 40px;
-    padding: 0;
-  }
-  #social-media-buttons ul li {
-    font-size: 20px;
-    padding: 4px;
-  }
-  #social-media-buttons ul li a {
-    color: black;
-    height: 36px;
-    width: 36px;
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 50%;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#afadad), to(white));
-    background-image: linear-gradient(#afadad, white);
-    -webkit-box-shadow: inset 0 0 2px #000000;
-            box-shadow: inset 0 0 2px #000000;
-  }
 }
 /*# sourceMappingURL=style.css.map */
