@@ -1,4 +1,86 @@
 @import "./colors";
-@import "./header";
-@import "./main";
-@import "./footer";
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-image: linear-gradient(lightgrey, rgb(155, 169, 194));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin-top: 5em;
+  height: 300px;
+  width: 405px;
+  background-image: url(/assets/images/card.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: rotate(-2deg);
+}
+
+#social-media-buttons {
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    margin-top: 110px;
+    margin-left: 80px;
+    padding: 0;
+
+    li {
+      font-size: 30px;
+      padding: 6px;
+
+      a {
+        color: black;
+        height: 50px;
+        width: 50px;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 50%;
+        background-image: linear-gradient(rgb(175, 173, 173), white);
+        box-shadow: inset 0 0 2px #000000;
+        
+        .fa-github {
+          color: $githu;
+          &:hover {
+            color: black;
+            transition: .4s;  
+          }
+        }
+        .fa-twitter{
+          color: $twitt;
+          &:hover {
+            color: black;
+            transition: .4s;  
+          }
+        }
+        .fa-linkedin{
+          color: $linke;
+          &:hover {
+            color: black;
+            transition: .4s;  
+          }
+        }
+      }
+    }
+  }
+}
+
+#githu {
+  margin-left: 10px;
+}
+#twitt {
+  transform: rotate(2deg);
+}
+#linke {
+  transform: rotate(4deg);
+  margin-left: 5px;
+}
