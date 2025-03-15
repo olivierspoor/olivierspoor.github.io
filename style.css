@@ -1,21 +1,16 @@
 html, body {
   height: 100%;
   margin: 0;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(lightgrey), to(#9ba9c2));
-  background-image: linear-gradient(lightgrey, #9ba9c2);
+  background-image: linear-gradient(lightgrey, rgb(155, 169, 194));
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .paper {
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   width: 300px;
   margin: 5em auto auto;
   padding: 10px 5px 4px 42px;
@@ -24,16 +19,14 @@ html, body {
   line-height: 20px;
   border: 1px solid #d2d2d2;
   background: #fff;
-  background: -webkit-gradient(linear, left top, left bottom, from(#d9eaf3), color-stop(8%, #fff)) 0 4px;
   background: linear-gradient(to bottom, #d9eaf3 0%, #fff 8%) 0 4px;
   background-size: 100% 20px;
   border-radius: 3px;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .paper::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 4px;
   top: 0;
@@ -76,11 +69,9 @@ a {
   color: black;
   text-decoration: none;
 }
-
 a:hover {
   font-weight: 700;
-  -webkit-transition: .4s;
-  transition: .4s;
+  transition: 0.4s;
   margin-left: -5px;
 }
 
@@ -89,20 +80,19 @@ i {
 }
 
 .fa-github {
-  color: #a3a3a3;
+  color: rgb(163, 163, 163);
 }
 
 .fa-twitter {
-  color: #0aa1ff;
+  color: rgb(10, 161, 255);
 }
 
 .fa-linkedin {
-  color: #293d97;
+  color: rgb(41, 61, 151);
 }
 
 @media (max-width: 400px) {
   .paper {
     width: 240px;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
